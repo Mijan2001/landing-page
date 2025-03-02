@@ -86,7 +86,7 @@ export const menuItems = {
 
 // company logo data
 
-const logos = [
+export const logos = [
     {
         src: 'https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66e8a82d52566d454c99501c_Discord.svg',
         alt: 'Discord',
@@ -181,7 +181,7 @@ const logos = [
 
 // features section data
 
-const features = [
+export const features = [
     {
         icon: <FiLayout className="w-8 h-8" />,
         title: 'Design and build',
@@ -213,7 +213,7 @@ const features = [
 ];
 
 // design section data
-const tabsData = [
+export const tabsData = [
     {
         id: 'tab1',
         title: 'Design without limits',

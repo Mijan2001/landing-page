@@ -1,1 +1,25 @@
 @import 'tailwindcss';
+
+/* for logo animation ================  */
+/* this design start for CompanyLogo component................  */
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 10s linear infinite;
+}
+/* this design end for CompanyLogo component................  */
+
+@theme {
+    --color-primary: #080806;
+}
+
+.primary-container {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
