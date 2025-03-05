@@ -266,7 +266,7 @@ export const tabsData = [
 
 // customer section data
 
-const customerData = [
+export const customerData = [
     {
         id: 'techstart',
         logo: 'https://cdn.prod.website-files.com/66e88746834b80507cdf7933/66ec7ff7808fef2aeecfff1b_Outliant.svg',
