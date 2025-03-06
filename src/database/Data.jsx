@@ -304,7 +304,7 @@ export const customerData = [
 
 //   about section data
 
-const aboutFeatures = [
+export const aboutFeatures = [
     {
         id: 'ai-1',
         title: 'Generate styled content quickly',
@@ -339,7 +339,7 @@ const aboutFeatures = [
 
 //   footer section data
 
-const footerLinks = {
+export const footerLinks = {
     product: {
         title: 'Product',
         links: [
@@ -372,7 +372,7 @@ const footerLinks = {
     }
 };
 
-const socialLinks = [
+export const socialLinks = [
     { icon: <FaFacebook />, href: 'https://www.facebook.com/Mijan.CSE.PUST/' },
     { icon: <FaTwitter />, href: 'https://x.com/Mijan2001' },
     { icon: <FaInstagram />, href: 'https://www.instagram.com/_mijan2001/' },

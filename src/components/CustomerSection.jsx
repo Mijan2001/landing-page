@@ -85,6 +85,8 @@ const CustomerSection = () => {
                                         autoPlay
                                         muted
                                         playsInline
+                                        loop
+                                        data-slide={customer.id}
                                         poster={customer.poster}
                                     ></video>
 
@@ -116,7 +118,7 @@ const CustomerSection = () => {
                                                         {customer.author}
                                                     </div>
                                                     <button
-                                                        className="p-2 hover:bg-white/20 rounded-full"
+                                                        className="p-2 hover:bg-white/20 rounded-full cursor-pointer transition-colors"
                                                         onClick={
                                                             togglePlayPause
                                                         }
