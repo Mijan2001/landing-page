@@ -1,4 +1,4 @@
-# Landing Page UI - Modern React9019 Tailwindcss v4
+# Landing Page UI - Modern React19 Tailwindcss v4
 
 A modern, responsive landing page built with React, Tailwind CSS, and Vite. This project demonstrates a professional UI implementation with features like dynamic navigation, dropdown menus, and mobile responsiveness.
 
